@@ -1,0 +1,20 @@
+* {
+	margin : 0;
+	padding : 0;
+}
+ul {
+	list-style : none;
+}
+a:link, a:visited {
+	color : #333;
+	text-decoration : none;
+}
+a:hover {
+	color : #f00;
+	text-decoration : none;
+}
+#topBar {
+	position : fixed;
+	width : 100px;
+	top : 0;
+}
