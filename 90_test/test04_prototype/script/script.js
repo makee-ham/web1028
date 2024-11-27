@@ -7,7 +7,7 @@ $(document).ready(function () {
       sectionsColor: ['transparent', '#eee', 'cadetblue', '#ccc'],
       // �섏씠吏� �대룞 �대퉬寃뚯씠��
       navigation: true,
-      navigationTooltips: ['About Hyundai', 'Model', 'Event', 'Customer Service'],
+      navigationTooltips: ['Welcome', 'Discography', 'Updates', 'Band Info'],
       showActiveTooltip: true,
       // �щ씪�대뱶 硫붾돱
       slidesNavigation: true,
@@ -61,8 +61,8 @@ $(document).ready(function () {
       $('#tab div').css({ display: 'none' })
       $('#tab div').eq(i).css({ display: 'block' });
       // �쇱씤 泥섎━
-      $('#tab>ul>li').css({ backgroundColor:'#444', zIndex:0,color:'#fff' });
-      $(this).css({ backgroundColor: '#fff', zIndex: 1, color:'#444' });
+      $('#tab>ul>li').css({ backgroundColor:'#1c1c1c', zIndex:0,color:'#fff' });
+      $(this).css({ backgroundColor: '#fff', zIndex: 1, color:'#1c1c1c' });
    });
 
    // �� 硫붾돱 �댁슜�� �대┃ ��
