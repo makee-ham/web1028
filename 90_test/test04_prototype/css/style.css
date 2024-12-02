@@ -11,7 +11,7 @@ img {border: none; vertical-align: top; width:100%; height:auto;}
 body {font-family:'Kode Mono', Anta, Arial, Helvetica, sans-serif; font-size:20px;}
 
 /* 로고 */
-.logo {font-size:40px; position:fixed; z-index:99; left:0px; top:24px;}
+.logo {position:fixed; z-index:99; left:0px; top:24px;}
 
 /* GNB */
 #menu {position:fixed; z-index:99; right:24px; top:32px;}
@@ -28,7 +28,7 @@ body {font-family:'Kode Mono', Anta, Arial, Helvetica, sans-serif; font-size:20p
 /* 전체 섹션 */
 h1 {font-family : Anta, sans-serif; text-align:center; font-size:3rem;}
 p {font-family : 'Kode Mono', sans-serif; text-align:center; font-size:1rem; margin-top:30px;}
-.section {font-family: 'Kode Mono', sans-serif; color:#fff;}
+.section {height : 100vh; overflow : hidden; font-family: 'Kode Mono', sans-serif; color:#fff;}
 .fp-tableCell {text-align:center;}
 
 /* 1 페이지 - 회사소개 */
@@ -45,21 +45,21 @@ p {font-family : 'Kode Mono', sans-serif; text-align:center; font-size:1rem; mar
 .s1 {text-align:center;}
 .s1 .title {display:inline-block; vertical-align:middle;}
 
-/* 2 페이지 - 전체모델 */
+/* 2 페이지 - 디스코그래피 */
 .s2 {background-color: #000 !important;}
 .s2 h1 {color:#fff;}
 .s2 p {color:#fff;}
 .s2 #tab_wrap {height:400px; background:#8b0000;}
-.s2 #tab{width:1600px; margin:80px auto}
+.s2 #tab{width:1600px; margin:80px auto;}
 .s2 #tab>ul>li{display:inline-block; width:150px; height:50px; line-height:50px; margin-bottom:30px; background:#1c1c1c; text-align:center; color:#fff; cursor:pointer;  font-size:1rem; color:#fff; margin-right:-12px;}
 .s2 #tab>ul>li:first-of-type {background-color:#fff; color:#1c1c1c;}
 
 .s2 #tab div{display:none;}
-.s2 #tab div ul{height:400px}
+.s2 #tab div ul{height:400px;}
 .s2 #tab div li{position:relative; display:inline-block; width:285px; height:270px; box-sizing:border-box; margin:0 10px; background:no-repeat 50% 50%/80%;}
-.s2 #tab div:nth-of-type(1) {display:block}
+.s2 #tab div:nth-of-type(1) {display:block;}
 
-/* 3 페이지 - 이벤트 */
+/* 3 페이지 - 뉴스 */
 .s3 {background-color: #003c8b !important;}
 .s3 .fp-tableCell {vertical-align:top;}
 .s3 h1 {color:#fff;position:relative; left:50%; transform:translateX(-50%); top:120px; margin-top:50px;}
