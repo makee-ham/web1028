@@ -26,7 +26,6 @@ a {
 header {
     width: 100%;
     background-color: #fff;
-    border-bottom: 1px solid #ddd;
     position: relative;
     z-index: 10;
 }
@@ -55,43 +54,24 @@ header {
 .mainmenu > li {
     position: relative; /* 서브메뉴의 기준점 */
     margin-right: 30px;
+    border : 1px dashed red;
 }
 .mainmenu > li > a {
     display: block;
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
-    color: #333;
+    color: #000;
 }
 
 /* 서브메뉴 스타일 */
-.submenu {
-    display: none; /* 초기 숨김 */
-    position: absolute;
-    top: 60px; /* 메인 메뉴 바로 아래 */
-    left: 0;
-    width: 100vw; /* 화면 전체 너비 */
-    background-color: #0080ff; /* 파란 배경 */
-    text-align: left;
-    padding: 15px 0;
-    z-index: 5;
-}
-
-.submenu li {
-    display: block; /* 세로 리스트 형태 */
-    padding: 5px 0;
-}
-
-.submenu li a {
-    display: block;
-    padding: 10px 20px;
-    color: #fff; /* 서브 메뉴 텍스트 색상 */
-    font-size: 14px;
-}
-
-/* 메인 메뉴에 호버 시 서브메뉴 표시 */
-.mainmenu > li:hover .submenu {
-    display: block; /* 호버하면 서브메뉴 보이기 */
+.submenuBg {
+  position : absolute;
+  width : 100vw;
+  height : 200px;
+  top : 60px;
+  z-index : 1;
+  background-color: #0080ff;
 }
 
 /* 사이트 메뉴 스타일 */
@@ -102,9 +82,14 @@ header {
 .sitemenu li {
     margin-left: 15px;
 }
+.sitemenu a {
+  font-size : 12px;
+}
 .sitemenu a img {
     width: 20px;
     height: 20px;
+    position : relative;
+    top : 3px;
 }
 
 /* 검색창 스타일 */
