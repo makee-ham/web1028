@@ -50,6 +50,7 @@ header {
     display: flex;
     justify-content: center; /* 메뉴 중앙 정렬 */
     text-align: center;
+	border : 1px dashed red;
 }
 .mainmenu > li {
     position: relative; /* 서브메뉴의 기준점 */
@@ -65,13 +66,22 @@ header {
 }
 
 /* 서브메뉴 스타일 */
-.submenuBg {
+/*.submenuBg {
   position : absolute;
   width : 100vw;
   height : 200px;
   top : 60px;
   z-index : 1;
   background-color: #0080ff;
+}*/
+.submenu {
+	position : absolute;
+	width : 100%;
+	display : none;
+	
+}
+.mainmenu > li:hover .submenu {
+	display : block;
 }
 
 /* 사이트 메뉴 스타일 */
